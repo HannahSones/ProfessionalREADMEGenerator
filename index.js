@@ -2,6 +2,55 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 
+const promptUser = () =>
+  inquirer.prompt([
+    {
+      type: 'input',
+      name: 'email',
+      message: 'What is your Email address?',
+    },
+    {
+      type: 'input',
+      name: 'github username',
+      message: 'What is your Github username?',
+    },
+    {
+      type: 'input',
+      name: 'title',
+      message: 'Your project title:',
+    },
+    {
+      type: 'input',
+      name: 'description',
+      message: 'A description of you project:',
+    },
+    {
+      type: 'input',
+      name: 'installation',
+      message: 'Installation instructions for your project:',
+    },
+    {
+      type: 'input',
+      name: 'useage',
+      message: 'How to use your project:',
+    },
+    {
+      type: 'list',
+      name: 'license',
+      message: 'Select a license for your application:',
+      choices: '[MIT license, another one]'
+    },
+    {
+      type: 'input',
+      name: 'contributing',
+      message: 'Add guidelines on how to contribute to your development:',
+    },
+    {
+      type: 'input',
+      name: 'tests',
+      message: 'Write tests for your application with examples on how to run them:',
+    },
+  ]);
 
 
 // Basic template for ReadME file
