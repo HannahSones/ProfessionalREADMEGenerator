@@ -11,18 +11,42 @@ const promptUser = () =>
     },
     {
       type: 'input',
-      name: 'github username',
+      name: 'githubUsername',
       message: 'What is your Github username?',
+      validate: githubInput => {
+        if (githubInput) {
+            return true;
+        } else {
+            console.log('Enter your github Username.');
+            return false;
+        }
+    }
     },
     {
       type: 'input',
       name: 'title',
       message: 'Your project title:',
+      validate: titleInput => {
+        if (titleInput) {
+            return true;
+        } else {
+            console.log('Required. Include a project title.');
+            return false;
+        }
+    }
     },
     {
       type: 'input',
       name: 'description',
       message: 'A description of you project:',
+      validate: descriptionInput => {
+        if (descriptionInput) {
+            return true;
+        } else {
+            console.log('Required. Include a description for your project.');
+            return false;
+        }
+    }
     },
     {
       type: 'input',
@@ -31,18 +55,18 @@ const promptUser = () =>
     },
     {
       type: 'input',
-      name: 'useage',
+      name: 'usage',
       message: 'How to use your project:',
     },
     {
       type: 'list',
       name: 'license',
-      message: 'Select a license for your application:',
-      choices: '[MIT license, another one]'
+      message: 'Select an open source license for your application:',
+      choices: ['MIT license, GNU AGPLv3, Mozilla Public License 2.0, Apache License 2.0, Boost Software License 1.0, The Unlicense']
     },
     {
       type: 'input',
-      name: 'contributing',
+      name: 'contributions',
       message: 'Add guidelines on how to contribute to your development:',
     },
     {
@@ -53,11 +77,13 @@ const promptUser = () =>
   ]);
 
 
-// Basic template for ReadME file
-`# Title
+  const generateReadME = (answers) => {
+    const { email, title, githubUsername, description, installation, usage, license, contributions, tests  } = answers;
+    return `# ${title}
 ## Description
-Add description here
+${description}
 
+License badge here
 ----------
 
 ## Table of contents
@@ -71,27 +97,39 @@ Add description here
 ----------
 
 ## Installation
-Text added here.
+${installation}
 
 ----------
 
 ## Usage
-* When the Weather Dashboard is first loaded, the dashboard is empty and the forecast containers don't appear until a city has been searched.
-* Once a user searches for a cityleared, information from local storage is cleared, and the page is refreshed to display a new, blank page.
+${usage}
 
 -----------
 ## License
-Choose a license from a list of options
+Description of the license chosen
 
 -------------
 ## Contributing
-Text added here.
+${contributing}
 
 --------------
 ## Tests
+${tests}
 
 ------------
 ## Questions
-Github username is added with link to profile
-Email address
-`
+If you have any questions on this application or would like more information, you can reach me via...
+Email: ${githubUsername}
+Github: github.com/${githubUsername}
+`;
+};
+
+
+promptUser()
+  .then((answers) => {
+    const readME = generateReadME(answers);
+    fs.writeFileSync(readME);
+    //writeFileAsync('index.html', generateHTML(answers));
+  })
+  .then(() => console.log('Successfully created your ReadMe file'))
+  .catch((err) => console.error(err));
