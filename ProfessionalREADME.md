@@ -1,8 +1,8 @@
-# test
+# Professional ReadMe
 ## Description
-This is a test
+Command-line prompts to create a professional ReadMe
 
-[![License](undefined)
+[![License](https://img.shields.io/badge/license-GNU AGPLv3-orange)
 ----------
 
 ## Table of contents
@@ -16,21 +16,21 @@ This is a test
 ----------
 
 ## Installation
-
+fork the code
 
 ----------
 
 ## Usage
-Sparingly
+test
 
 -----------
 ## License
 This project is licensed under:
-undefined
+GNU AGPLv3
 
 -------------
 ## Contributing
-guides
+guidelines
 
 --------------
 ## Tests
@@ -38,6 +38,6 @@ test
 
 ------------
 ## Questions
-If you have any questions on this application or would like more information, you can reach me via...
-Email: test
-Github: github.com/test
+If you have any questions on this application or would like more information, you can reach me via...    
+Email: hannah.sones@outlook.com    
+Github: github.com/hannahsones
