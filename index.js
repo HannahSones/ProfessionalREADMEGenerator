@@ -81,14 +81,20 @@ const promptUser = () =>
         },
     ]);
 
+const createBadgeURL = (license, badgeColor) => {
+    const url = `https://img.shields.io/badge/license-${license}-${badgeColor}`
+    const badgeURL = encodeURI(url)
+    return badgeURL;
+}
+
 
 const generateReadME = (answers) => {
-    const { email, title, githubUsername, description, installation, usage, license, badgeColor, contributions, tests } = answers;
+    const { email, title, githubUsername, description, installation, usage, license, badgeURL, contributions, tests } = answers;
     return `# ${title}
 ## Description
 ${description}
 
-[![License](https://img.shields.io/badge/license-${license}-${badgeColor})
+[![License](${badgeURL})
 ----------
 
 ## Table of contents
@@ -133,6 +139,7 @@ Github: https://github.com/${githubUsername}
 
 promptUser()
     .then((answers) => {
+        createBadgeURL(answers);
         const readMETemplate = generateReadME(answers);
         fs.writeFileSync('ProfessionalREADME.md', readMETemplate);
     })

@@ -2,7 +2,7 @@
 ## Description
 test
 
-[![License](https://img.shields.io/badge/license-Apache License 2.0-yellow)
+[![License](undefined)
 ----------
 
 ## Table of contents
@@ -26,18 +26,18 @@ test
 -----------
 ## License
 This project is licensed under:
-Apache License 2.0
+Boost Software License 1.0
 
 -------------
 ## Contributing
-test
+
 
 --------------
 ## Tests
-test
+tes
 
 ------------
 ## Questions
 If you have any questions on this application or would like more information, you can reach me via...    
-Email: test    
-Github: https://github.com/test
+Email: testy    
+Github: https://github.com/ttest
