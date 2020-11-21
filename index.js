@@ -82,8 +82,8 @@ const promptUser = () =>
     ]);
 
 const createBadgeURL = (license, badgeColor) => {
-    const url = `https://img.shields.io/badge/license-${license}-${badgeColor}`
-    const badgeURL = encodeURI(url)
+    const url = `https://img.shields.io/badge/license-${license}-${badgeColor}`;
+    const badgeURL = encodeURI(url);
     return badgeURL;
 }
 

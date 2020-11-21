@@ -16,7 +16,7 @@ test
 ----------
 
 ## Installation
-test
+tet
 
 ----------
 
@@ -26,18 +26,18 @@ test
 -----------
 ## License
 This project is licensed under:
-Boost Software License 1.0
+Mozilla Public License 2.0
 
 -------------
 ## Contributing
-
+test
 
 --------------
 ## Tests
-tes
+test
 
 ------------
 ## Questions
 If you have any questions on this application or would like more information, you can reach me via...    
-Email: testy    
-Github: https://github.com/ttest
+Email: test    
+Github: https://github.com/test
