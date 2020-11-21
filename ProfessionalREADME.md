@@ -1,8 +1,8 @@
-# test
+# Professional ReadME Generator
 ## Description
-test
+A commandline application to generate a professional readme
 
-[![License](undefined)
+[![License](https://img.shields.io/badge/license-Mozilla%20Public%20License%202.0-orange)
 ----------
 
 ## Table of contents
@@ -16,12 +16,12 @@ test
 ----------
 
 ## Installation
-tet
+
 
 ----------
 
 ## Usage
-test
+
 
 -----------
 ## License
@@ -30,14 +30,14 @@ Mozilla Public License 2.0
 
 -------------
 ## Contributing
-test
+
 
 --------------
 ## Tests
-test
+Sample tests
 
 ------------
 ## Questions
 If you have any questions on this application or would like more information, you can reach me via...    
-Email: test    
-Github: https://github.com/test
+Email: hannah.sones@outlook.com    
+Github: https://github.com/hannahsones

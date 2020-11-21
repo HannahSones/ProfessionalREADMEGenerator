@@ -85,11 +85,11 @@ const createBadgeURL = (license, badgeColor) => {
     const url = `https://img.shields.io/badge/license-${license}-${badgeColor}`;
     const badgeURL = encodeURI(url);
     return badgeURL;
-}
+};
 
 
-const generateReadME = (answers) => {
-    const { email, title, githubUsername, description, installation, usage, license, badgeURL, contributions, tests } = answers;
+const generateReadME = (answers, badgeURL) => {
+    const { email, title, githubUsername, description, installation, usage, license, contributions, tests } = answers;
     return `# ${title}
 ## Description
 ${description}
@@ -139,8 +139,8 @@ Github: https://github.com/${githubUsername}
 
 promptUser()
     .then((answers) => {
-        createBadgeURL(answers);
-        const readMETemplate = generateReadME(answers);
+        let badgeURL = createBadgeURL(answers.license, answers.badgeColor);
+        const readMETemplate = generateReadME(answers, badgeURL);
         fs.writeFileSync('ProfessionalREADME.md', readMETemplate);
     })
     .then(() => console.log('Congrats. You have successfully created your ReadMe file'))
