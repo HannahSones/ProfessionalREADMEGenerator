@@ -5,7 +5,6 @@ Quickly and easily create a professional ReadME file by using a command-line app
 * [About](#about-the-project)
   * [Built using](#built-using)
 * [Functionality](#functionality)
-* [Link to application](#link-to-deployed-application)
 * [License](License)
 
 ----------
@@ -24,16 +23,12 @@ To improve the appearance of the ReadME and create a better user experience, I h
 
 ## Functionality
 
-![Application Walk Through](add)
+![Application Walk Through](https://media.giphy.com/media/SmaXptbnyS3C5le5N4/giphy.gif)
 
-For a full video clip of the application in use, head to (https://)
+For a full video clip of the application in use, [click here](https://drive.google.com/file/d/1-TAL62Ni0G5891dsp1qY6ae67iFtWTzZ/view?usp=sharing)
 
 
 --------------
-## Link to deployed application
-https://hannahsones.github.io/
-
-------------
 ## License
 
 Licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
