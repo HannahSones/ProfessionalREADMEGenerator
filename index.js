@@ -88,7 +88,7 @@ const generateReadME = (answers) => {
 ## Description
 ${description}
 
-[![License](https://img.shields.io/badge/<license>-<${license}>-<${badgeColor}>)
+[![License](https://img.shields.io/badge/license-${license}-${badgeColor})
 ----------
 
 ## Table of contents
