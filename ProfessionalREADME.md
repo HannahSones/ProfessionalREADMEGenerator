@@ -1,8 +1,8 @@
 # Professional ReadME Generator
 ## Description
-A command line application to create a professional ReadME file
+A command line application to create a professional ReadME file.
 
-[!License](https://img.shields.io/badge/license-Apache%20License%202.0-orange)
+[![License](https://img.shields.io/badge/license-Apache%20License%202.0-orange)
 ----------
 
 ## Table of contents
@@ -30,7 +30,7 @@ Apache License 2.0
 
 -------------
 ## Contributing
-Feel free to contribute to this project
+Feel free to contribute to this project or contact me if you have any questions
 
 --------------
 ## Tests
