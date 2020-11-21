@@ -94,7 +94,7 @@ const generateReadME = (answers, badgeURL) => {
 ## Description
 ${description}
 
-[!License](${badgeURL})
+[![License](${badgeURL})
 ----------
 
 ## Table of contents

@@ -2,7 +2,7 @@
 ## Description
 A command line application to create a professional ReadME file
 
-[!License](https://img.shields.io/badge/license-Mozilla%20Public%20License%202.0-brightgreen)
+[!License](https://img.shields.io/badge/license-Apache%20License%202.0-orange)
 ----------
 
 ## Table of contents
@@ -26,11 +26,11 @@ Answer the question prompts that appear in the command line terminal to generate
 -----------
 ## License
 This project is licensed under:
-Mozilla Public License 2.0
+Apache License 2.0
 
 -------------
 ## Contributing
-
+Feel free to contribute to this project
 
 --------------
 ## Tests
