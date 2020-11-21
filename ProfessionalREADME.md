@@ -1,8 +1,8 @@
-# Professional ReadMe
+# New title
 ## Description
-Command-line prompts to create a professional ReadMe
+new description
 
-[![License](https://img.shields.io/badge/license-GNU AGPLv3-orange)
+[![License](https://img.shields.io/static/v1?label=license&message=Mozilla Public License 2.0&color=brightgreen)
 ----------
 
 ## Table of contents
@@ -16,21 +16,21 @@ Command-line prompts to create a professional ReadMe
 ----------
 
 ## Installation
-fork the code
+install
 
 ----------
 
 ## Usage
-test
+use
 
 -----------
 ## License
 This project is licensed under:
-GNU AGPLv3
+Mozilla Public License 2.0
 
 -------------
 ## Contributing
-guidelines
+test
 
 --------------
 ## Tests
@@ -39,5 +39,5 @@ test
 ------------
 ## Questions
 If you have any questions on this application or would like more information, you can reach me via...    
-Email: hannah.sones@outlook.com    
-Github: github.com/hannahsones
+Email: hannah.sones@gmail.com    
+Github: https://github.com/hannahsones

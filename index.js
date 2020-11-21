@@ -88,7 +88,7 @@ const generateReadME = (answers) => {
 ## Description
 ${description}
 
-[![License](https://img.shields.io/badge/license-${license}-${badgeColor})
+[![License](https://img.shields.io/static/v1?label=license&message=${license}&color=${badgeColor})
 ----------
 
 ## Table of contents
@@ -126,7 +126,7 @@ ${tests}
 ## Questions
 If you have any questions on this application or would like more information, you can reach me via...    
 Email: ${email}    
-Github: github.com/${githubUsername}
+Github: https://github.com/${githubUsername}
 `;
 };
 
