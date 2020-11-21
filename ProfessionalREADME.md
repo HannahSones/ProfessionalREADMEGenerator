@@ -1,8 +1,8 @@
 # Professional ReadME Generator
 ## Description
-A commandline application to generate a professional readme
+A command line application to create a professional ReadME file
 
-[![License](https://img.shields.io/badge/license-Mozilla%20Public%20License%202.0-orange)
+[!License](https://img.shields.io/badge/license-Mozilla%20Public%20License%202.0-brightgreen)
 ----------
 
 ## Table of contents
@@ -16,12 +16,12 @@ A commandline application to generate a professional readme
 ----------
 
 ## Installation
-
+Clone the index.js file onto your local machine, ensure you have node.js installed and type node index into your command terminal to run the prompts and generate the answers
 
 ----------
 
 ## Usage
-
+Answer the question prompts that appear in the command line terminal to generate your answers and a ReadME file that contains these
 
 -----------
 ## License
@@ -34,7 +34,7 @@ Mozilla Public License 2.0
 
 --------------
 ## Tests
-Sample tests
+Sample test
 
 ------------
 ## Questions
